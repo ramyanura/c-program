@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-   int i, num, p = 0;
+   int i, num, prime= 0;
      scanf("%d", &num);
    for(i=1; i<=num; i++)
    {
       if(num%i==0)
       {
-         p++;
+         prime++;
       }
    }
-   if(p==2)
+   if(prime==2)
    {
       printf("yes");
    }
